@@ -12,7 +12,8 @@ function getTime() {
     if(h > 12){
         h -= 12;
         clockampm = "PM";
-    }else if (h < 10){
+    }
+    if (h < 10){
         h = "0"+h;
     }
 
